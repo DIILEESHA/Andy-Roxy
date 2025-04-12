@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-to-top {
+  z-index: 1000;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--blue);
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+}
+
+:root {
+  --color-soft-lemon: #fff8dc;
+  --color-soft-lemon-alt: #fdf6b2;
+  --color-warm-beige: #f9f4ef;
+  --color-sandy-taupe: #d9cbb6;
+  --lemon: #c97d60;
+  --brown: #74512d;
+  --olive-green: #8c9b87;
+  --color-white: #ffffff;
+  --blue: rgb(83, 98, 115);
+}
+
+.a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "title";
+  src: url("./fonts/LilyScriptOne-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sub";
+  src: url("./fonts/AlegreyaSC-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sec";
+  src: url("./fonts/Manrope-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.null {
+  object-position: center 80%;
+  height: 80vh !important;
+}

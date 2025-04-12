@@ -1,0 +1,71 @@
+.form_section {
+  padding: 50px 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rsvp_form {
+  width: 100%;
+  background-color: var(--color-warm-beige);
+  padding: 40px;
+}
+.form_group {
+  display: flex;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  flex-direction: column;
+}
+.error-message {
+  color: red;
+  font-family: "sub";
+  margin-bottom: 10px;
+}
+.form_group label {
+  font-family: "sub";
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.form_group input {
+  border: 1px solid #333;
+  background-color: transparent;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.form_group select {
+  background-color: transparent;
+  padding: 10px;
+  /* color: #fff; */
+  border: 1px solid #333;
+  margin-bottom: 10px;
+  font-family: "sec";
+}
+
+.opp {
+  z-index: 100000000000;
+}
+
+.form_group textarea {
+  background-color: transparent;
+  border: 1px solid #333;
+  padding: 15px;
+  color: #333;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.lod {
+  color: var(--blue);
+  font-family: "sub";
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.dor {
+  display: flex;
+  justify-content: flex-end;
+}

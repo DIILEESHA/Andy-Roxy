@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "img": "../assets/arch.avif",
+      "title": "⛪ Wedding Ceremony – 2:30 PM",
+      "sub": "St. Peter’s Church, Brač"
+    },
+    {
+      "id": 2,
+      "img": "/assets/images/ceremony.png",
+      "title": "🍹 Welcome Drinks & Nibbles",
+      "sub": "After the ceremony"
+    },
+    {
+      "id": 3,
+      "img": "/assets/images/dinner.png",
+      "title": "🍽️ Dinner",
+      "sub": "Mali Raj Restaurant"
+    },
+    {
+      "id": 4,
+      "img": "/assets/images/dancing.png",
+      "title": "💃 Dancing with DJ",
+      "sub": "After dinner until 1:00 AM"
+    }
+  ]
+  
