@@ -69,3 +69,19 @@
   display: flex;
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 1350px) {
+  .form_section {
+    padding: 50px 200px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .form_section {
+    padding: 50px 20px;
+  }
+
+
+  .rsvp_form{
+    width: 90%;
+  }
+}

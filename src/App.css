@@ -61,9 +61,7 @@ html {
   height: 80vh !important;
 }
 @media screen and (max-width: 700px) {
-  .cer_p {
-    width: 90%;
-  }
+
 
   .null {
     height: 55vh!important;
