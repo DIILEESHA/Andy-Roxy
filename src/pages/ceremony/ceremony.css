@@ -114,11 +114,38 @@
   font-family: "sec";
 }
 
-
-
-.joras{
+.joras {
   font-family: "sub";
   /* color: var(--lemon); */
   font-size: 25px;
   font-weight: 500;
+}
+@media screen and (max-width: 1070px) {
+  .card_grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 920px) {
+  .venue_grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ceremony {
+    padding: 50px 20px;
+  }
+
+  .cer {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+.cer_p{
+  width: 90%;
+}
+
+.venue_io{
+  height: 55vh;
+}
 }
