@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./home.css";
 import ab from "../../assets/couple.webp";
+import { Link } from "react-router-dom";
 
 // Animation variants (consistent with other components)
 const containerVariants = {
@@ -11,9 +12,9 @@ const containerVariants = {
     opacity: 1,
     transition: {
       staggerChildren: 0.3,
-      when: "beforeChildren"
-    }
-  }
+      when: "beforeChildren",
+    },
+  },
 };
 
 const itemVariants = {
@@ -23,9 +24,9 @@ const itemVariants = {
     opacity: 1,
     transition: {
       duration: 0.8,
-      ease: "easeOut"
-    }
-  }
+      ease: "easeOut",
+    },
+  },
 };
 
 const imageVariants = {
@@ -35,9 +36,9 @@ const imageVariants = {
     opacity: 1,
     transition: {
       duration: 1,
-      ease: "easeOut"
-    }
-  }
+      ease: "easeOut",
+    },
+  },
 };
 
 const lineVariants = {
@@ -46,9 +47,9 @@ const lineVariants = {
     scaleX: 1,
     transition: {
       duration: 1,
-      ease: [0.19, 1, 0.22, 1]
-    }
-  }
+      ease: [0.19, 1, 0.22, 1],
+    },
+  },
 };
 
 const buttonVariants = {
@@ -58,24 +59,24 @@ const buttonVariants = {
     opacity: 1,
     transition: {
       duration: 0.6,
-      ease: "backOut"
-    }
+      ease: "backOut",
+    },
   },
   hover: {
     scale: 1.05,
     transition: {
-      duration: 0.2
-    }
+      duration: 0.2,
+    },
   },
   tap: {
-    scale: 0.98
-  }
+    scale: 0.98,
+  },
 };
 
 const AnimatedSection = ({ children, className = "" }) => {
   const [ref, inView] = useInView({
     threshold: 0.2,
-    triggerOnce: true
+    triggerOnce: true,
   });
 
   return (
@@ -120,13 +121,13 @@ const Home = () => {
         </motion.p>
 
         <motion.div className="rsvp_btn" variants={itemVariants}>
-          <motion.button 
+          <motion.button
             className="rsvp"
             variants={buttonVariants}
             whileHover="hover"
             whileTap="tap"
           >
-            RSVP
+            <Link className="a" to="/rsvp">RSVP</Link>
           </motion.button>
         </motion.div>
       </AnimatedSection>
